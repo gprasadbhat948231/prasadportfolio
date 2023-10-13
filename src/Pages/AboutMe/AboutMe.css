@@ -1,0 +1,121 @@
+.about-me-text{
+    font-family: "Ubuntu";
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.why-text-sub{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.aboutme-inside{
+    width: 70%;
+    margin-inline: auto;
+}
+
+.some-text-about-me {
+    font-family: "Ubuntu";
+    font-weight: 600;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.few-highlights{
+    font-family: "Ubuntu";
+    padding-block: 12px;
+}
+
+.few-text{
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-size: 1.5rem;
+    /* opacity: 0.8; */
+    /* margin-top: 40px; */
+    /* text-align: justify; */
+}
+
+.lottie1{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.few-list{
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+}
+
+.few-list ul{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1180px){
+    .about-me-container{
+        flex-direction: column;
+    }
+
+    .about-anim{
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+
+    .lottie1{
+        width: 500px;
+        height: 500px;
+        background: transparent;
+        margin: auto;
+    }
+
+    .some-text-about-me{
+        width: 200%;
+        overflow-wrap: break-word;
+        margin-top: -120px;
+    }
+
+    .few-highlights{
+        width: 500px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .some-text-about-me{
+        width: 100%;
+        overflow-wrap: normal;
+        margin-top: -120px;
+    }
+
+    .about-anim{
+        margin-top: -20px;
+    }
+
+    .few-highlights{
+        width: auto
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-me-text{
+        font-size: 2.2rem;
+    }
+
+    .why-text-sub{
+        font-size: 1.2rem;
+    }
+    
+    .lottie1{
+        z-index: 10;
+    }
+}
