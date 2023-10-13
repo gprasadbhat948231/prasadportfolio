@@ -8,17 +8,12 @@ const Home = () => {
 
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("fw20_0513_Anirudha_Mandal_Resume.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "fw20_0513_Anirudha_Mandal_Resume.pdf";
-        alink.click();
-      });
-    });
+    const pdfUrl = process.env.PUBLIC_URL + '/myresume.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.target="_blank";
+    link.download = 'G_Prasad_Bhat_Resume.pdf';
+    link.click();
   };
 
   useEffect(() => {
