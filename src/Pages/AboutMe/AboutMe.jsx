@@ -12,7 +12,7 @@ function AboutMe() {
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
                         <span className="some-text-about-me">
-                            Full Stack Web Developer with background Knowledge in MERN Stack with redux, along with a knack of building applications with utmost efficiency. Strong professional willing to be asset for the organization.
+                        Passionate MERN Stack Developer contributing to the world of web development with a focus on popular Frontend technology ReactJs.
                         </span>
                         <span className="few-highlights">
                             <span className="few-text">Here are few highlights</span>

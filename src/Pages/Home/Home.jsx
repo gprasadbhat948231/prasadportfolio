@@ -41,7 +41,7 @@ const Home = () => {
         <div className="right-img">
           <img
             className="img-fluid custom-img"
-            src="https://github.com/gprasadbhat948231/gshopy/assets/107459781/0ebad7aa-40da-4df1-a2f8-f9549f3fdf96"
+            src="https://github.com/gprasadbhat948231/prasadportfolio/assets/107459781/f4b15fe8-4980-46c4-acfc-4a6e7fde0a81"
             alt="gpImage"
           />
         </div>
@@ -73,7 +73,7 @@ const Home = () => {
               <button className="btn-hire-me">Hire me</button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1T1pDgUeg9556GMpMEVsRAZdZpXYP18na/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1vA3jSj2Kl88Em48SUx5LsYbeSh0MUkEg/view?usp=sharing"
               target={"_blank"}
             >
               <button onClick={onButtonClick} className="btn-resume-me">
