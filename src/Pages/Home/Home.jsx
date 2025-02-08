@@ -7,7 +7,6 @@ const Home = () => {
   const el = useRef(null);
 
   const onButtonClick = () => {
-    // using Java Script method to get PDF file
     const pdfUrl = process.env.PUBLIC_URL + '/myresume.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
@@ -73,7 +72,7 @@ const Home = () => {
               <button className="btn-hire-me">Hire me</button>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1vA3jSj2Kl88Em48SUx5LsYbeSh0MUkEg/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QcUw0qMpb7AxYophFMw8woW4aWwBhXSu/view?usp=sharing"
               target={"_blank"}
             >
               <button onClick={onButtonClick} className="btn-resume-me">
