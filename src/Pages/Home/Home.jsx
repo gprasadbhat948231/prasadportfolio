@@ -41,7 +41,7 @@ const Home = () => {
         <div className="right-img">
           <img
             className="img-fluid custom-img"
-            src="https://github.com/gprasadbhat948231/prasadportfolio/assets/107459781/f4b15fe8-4980-46c4-acfc-4a6e7fde0a81"
+            src="https://avatars.githubusercontent.com/u/107459781?s=400&u=791c1c0564fadacb437c9ddac10ec2daf47ee3db&v=4"
             alt="gpImage"
           />
         </div>
